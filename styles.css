@@ -100,12 +100,139 @@ nav a {
     margin-top: 50px;
 }
 
-.sponsor-logos{
-   padding-left:60px;
-   /* margin-top: 122px; */
+.sponsor-logos {
+    padding-left: 60px;
 }
-.sponsors{
+
+.sponsors {
     margin-top: 100px;
-    padding:20px 0 ;
+    padding: 20px 0;
     background-image: linear-gradient(90deg, rgba(192, 204, 218, 0.048) 0%, rgba(192, 204, 218, 0.147) 50.38%, rgba(192, 204, 218, 0.068) 100%);
+}
+/* Main section styles */
+
+.star-icon img {
+    width: 80%;
+    height: 60%;
+
+}
+
+.star-icon {
+    width: 20px;
+    height: 28px;
+}
+
+.rating {
+    display: flex;
+    padding-top: 6px;
+}
+
+.card-heading {
+    color: var(--Text-Gray-900, #18191F);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.price {
+    color: var(--Dark-Color, rgba(0, 0, 0, 0.87));
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.card-description {
+    width: 196px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(59, 57, 57, 0.834);
+}
+
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin-top: 80px;
+}
+
+.cards {
+    border-radius: 8px;
+    box-shadow: 5px 5px 28px rgb(197, 189, 189);
+}
+
+.card-image,
+.card-texts {
+    padding: 20px;
+}
+
+.card-caption {
+    text-align: center;
+    margin-top: 225px;
+}
+
+.more-link {
+    text-align: right;
+    color: rgb(248, 117, 165);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 8px;
+    padding-right: 8px;
+}
+
+.more-link a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query */
+@media screen and (max-width:576px) {
+
+    .nav,
+    .sponsors,
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-heading {
+        width: 400px;
+        margin-left: 10px;
+        margin-bottom: 90px;
+    }
+
+    .banner-description {
+        width: 370px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .banner-images {
+        width: 94%;
+        margin-right: 28px;
+    }
+    .card-section{
+        grid-template-columns: 1fr;
+        width: 400px;
+    }
+    .card-image img{
+        width: 100%;
+    }
+    .more-link{
+        margin-right: 180px;
+    }
+    
 }
