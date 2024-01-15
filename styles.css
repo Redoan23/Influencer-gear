@@ -109,6 +109,7 @@ nav a {
     padding: 20px 0;
     background-image: linear-gradient(90deg, rgba(192, 204, 218, 0.048) 0%, rgba(192, 204, 218, 0.147) 50.38%, rgba(192, 204, 218, 0.068) 100%);
 }
+
 /* Main section styles */
 
 .star-icon img {
@@ -186,6 +187,35 @@ nav a {
     text-decoration: none;
 }
 
+/* featured-section style */
+
+.feature-heading {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.feature-description {
+    width: 501px;
+    height: 88px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+}
+.join-now-btn{
+    border-radius: 0;
+}
+.feature-section{
+    display: flex;
+    gap: 100px;
+    margin-top: 174px;
+}
+
+
+
+
+
+
 
 
 
@@ -224,15 +254,18 @@ nav a {
         width: 94%;
         margin-right: 28px;
     }
-    .card-section{
+
+    .card-section {
         grid-template-columns: 1fr;
         width: 400px;
     }
-    .card-image img{
+
+    .card-image img {
         width: 100%;
     }
-    .more-link{
+
+    .more-link {
         margin-right: 180px;
     }
-    
+
 }
