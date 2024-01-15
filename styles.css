@@ -226,7 +226,8 @@ footer {
     background-color: #b62b49;
     height: 237px;
 }
-.footer-texts{
+
+.footer-texts {
     padding-top: 75px;
     margin-top: 100px;
 }
@@ -256,8 +257,9 @@ footer {
 .footer-icons i {
     padding: 0 10px;
 }
-.i{
-    background-color:white;
+
+.i {
+    background-color: white;
 }
 
 
@@ -289,26 +291,34 @@ footer {
         flex-direction: column;
     }
 
+    .sponsor-logos {
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+
     .feature-section {
         flex-direction: column-reverse;
     }
 
+    .btn-primary {
+        margin-left: 19px;
+    }
+
     .banner-heading {
         width: 400px;
-        margin-left: 10px;
+        margin-left: 19px;
         margin-bottom: 90px;
-        margin-top: -150px;
+        margin-top: -160px;
     }
 
     .banner-description {
         width: 350px;
-        margin-left: 10px;
+        margin-left: 19px;
         margin-bottom: 20px;
     }
 
     .banner-images {
         width: 310px;
-        margin-right: 100px;
 
     }
 
